@@ -12,4 +12,13 @@
 
 
         </head>
+
         <body>
+
+            <ul>
+                <li><a href="/loginForm">로그인</a></li>
+                <li><a href="/joinForm">회원가입</a></li>
+                <li><a href="/logout">로그아웃</a></li>
+                <li><a href="/user/updateForm">회원정보수정</a></li>
+                <li><a href="/board/list">게시글목록보기</a></li>
+            </ul>

@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
-<%@ include file="../layout/header.jsp" %>
+
 <hr>
             <div class="align_center">
                 사업자번호 : 01077772322 <br>
