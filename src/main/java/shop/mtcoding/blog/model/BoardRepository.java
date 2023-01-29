@@ -16,4 +16,6 @@ public interface BoardRepository {
     public List<Board> findAll();
 
     public Board findById(@Param("id") int id);
+
+    public List<Board> findByUserId(int userId);
 }

@@ -12,11 +12,13 @@
                     <th>제목</th>
                     <th>작성일</th>
                 </tr>
-                <tr>
-                    <td>1</td>
-                    <td>스프링 1강</td>
-                    <td>2023-01-27</td>
-                </tr>
+                <c:forEach items="${boardList}" var="board">
+                    <tr>
+                        <td>${board.id}</td>
+                        <td>${board.title}</td>
+                        <td>${board.createdAt}</td>
+                    </tr>
+                </c:forEach>
             </table>
         </div>
 
